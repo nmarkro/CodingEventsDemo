@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
 
 
   <ItemGroup>
-    <Folder Include="Views\Events\" />
     <Folder Include="Data\" />
   </ItemGroup>
 </Project>
