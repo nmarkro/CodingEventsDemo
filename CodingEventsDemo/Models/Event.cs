@@ -10,6 +10,8 @@ namespace CodingEventsDemo.Models
         public string Description { get; set; }
 
         public string ContactEmail { get; set; }
+        public string Location { get; set; }
+        public int Attendees { get; set; }
 
         public int Id { get; }
         static private int nextId = 1;
